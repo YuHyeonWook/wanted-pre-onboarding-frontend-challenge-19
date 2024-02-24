@@ -1,0 +1,19 @@
+.ListTodo {
+  padding: 0 20px;
+}
+
+.ListTodo .searchbar {
+  width: 100%;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid gray;
+
+  border-radius: 5px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+.ListTodo input:focus {
+  border: 2px solid #1f93ff;
+  outline: none;
+}

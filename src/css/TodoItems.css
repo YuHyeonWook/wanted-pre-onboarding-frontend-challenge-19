@@ -1,0 +1,26 @@
+.TodoItems {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed gray;
+}
+
+.TodoItems .title__column {
+  flex: 1rem;
+}
+
+.TodoItems .date__column {
+  color: gray;
+}
+
+.TodoItems .btn__column button {
+  cursor: pointer;
+  padding: 6px;
+  border: none;
+}
+.TodoItems .btn__column button:hover {
+  background-color: #1f93ff;
+}
